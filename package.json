@@ -4,6 +4,7 @@
   "description": "This is chat microservice for MrStmRecords web app",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Satyam Prajapati",
@@ -14,6 +15,7 @@
     "express": "^5.1.0",
     "http": "^0.0.1-security",
     "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
   }
 }
